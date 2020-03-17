@@ -50,6 +50,11 @@
             <version>4.5.2</version>
         </dependency>
 
+        <!--MySQL依赖 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
 
     </dependencies>
 
