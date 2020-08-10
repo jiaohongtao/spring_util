@@ -11,6 +11,10 @@ import org.springframework.util.StringUtils;
  */
 public class FieldToColumn {
 
+    /**
+     * 大写转小写下划线
+     * @param filed 字符串
+     */
     public static String fieldToColumn(String filed) {
         if (StringUtils.isEmpty(filed)) {
             return "";
