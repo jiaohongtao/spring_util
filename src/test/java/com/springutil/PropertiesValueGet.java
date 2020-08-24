@@ -1,6 +1,6 @@
-package com.spring_util;
+package com.springutil;
 
-import com.spring_util.test.test_20200707.PropertiesValue;
+import com.springutil.test.test_20200707.PropertiesValue;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

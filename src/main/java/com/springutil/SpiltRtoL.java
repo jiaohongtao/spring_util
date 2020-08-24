@@ -1,4 +1,4 @@
-package com.spring_util;
+package com.springutil;
 
 /**
  * @author jiaohongtao

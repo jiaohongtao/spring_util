@@ -1,9 +1,9 @@
 /**
  * Copyrigt (2020, ) Institute of Software, Chinese Academy of Sciences
  */
-package com.spring_util.dao;
+package com.springutil.dao;
 
-import com.spring_util.model.AbstracteGenerator;
+import com.springutil.model.AbstracteGenerator;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.lang.reflect.Method;

@@ -1,9 +1,7 @@
 /**
  * Copyrigt (2020, ) Institute of Software, Chinese Academy of Sciences
  */
-package com.spring_util.model;
-
-import org.springframework.beans.factory.annotation.Autowired;
+package com.springutil.model;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;

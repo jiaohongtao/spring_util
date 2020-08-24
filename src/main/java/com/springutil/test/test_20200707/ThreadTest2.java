@@ -1,4 +1,4 @@
-package com.spring_util.test.test_20200707;
+package com.springutil.test.test_20200707;
 
 /**
  * @author jiaohongtao

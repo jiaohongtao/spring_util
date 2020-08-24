@@ -1,7 +1,7 @@
 /**
  * Copyrigt (2019, ) Institute of Software, Chinese Academy of Sciences
  */
-package com.spring_util.model;
+package com.springutil.model;
 
 /**
  * @author wuheng@iscas.ac.cn

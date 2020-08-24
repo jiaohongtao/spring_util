@@ -1,4 +1,4 @@
-package com.spring_util.model;
+package com.springutil.model;
 
 import lombok.Data;
 

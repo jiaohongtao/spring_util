@@ -1,4 +1,4 @@
-package com.spring_util;
+package com.springutil;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;

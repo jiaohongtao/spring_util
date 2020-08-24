@@ -1,6 +1,6 @@
-package com.spring_util.test.test_20200707;
+package com.springutil.test.test_20200707;
 
-import com.spring_util.model.User;
+import com.springutil.model.User;
 
 import java.lang.reflect.Field;
 import java.sql.*;

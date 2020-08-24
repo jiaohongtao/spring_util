@@ -1,4 +1,4 @@
-package com.spring_util;
+package com.springutil;
 
 import java.io.File;
 import java.io.FileWriter;

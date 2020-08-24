@@ -1,4 +1,4 @@
-package com.spring_util.test.test_20200707;
+package com.springutil.test.test_20200707;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
