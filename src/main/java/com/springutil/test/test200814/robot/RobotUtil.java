@@ -12,7 +12,7 @@ import java.awt.event.KeyEvent;
  * @version 1.0
  * @since 2020年09月04日
  */
-public class AutoPaint {
+public class RobotUtil {
 
     public static void main(String[] args) {
         // getFiveCircle();
