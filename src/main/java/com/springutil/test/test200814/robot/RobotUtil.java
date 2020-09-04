@@ -302,7 +302,7 @@ public class RobotUtil {
             robot.delay(5000);
             // 1. 移动到注册点击位置
             for (int i = 0; i < 3; i++) {
-                robot.mouseMove(1270, 190);
+                robot.mouseMove(1280, 200);
             }
             robot.delay(1000);
             // 点击
@@ -312,7 +312,7 @@ public class RobotUtil {
 
             // 2. 移动到短信登录点击位置
             for (int i = 0; i < 3; i++) {
-                robot.mouseMove(770, 340);
+                robot.mouseMove(780, 340);
             }
             robot.delay(1000);
             // 点击
@@ -328,8 +328,10 @@ public class RobotUtil {
             robot.mousePress(InputEvent.BUTTON1_MASK);
             robot.mouseRelease(InputEvent.BUTTON1_MASK);
             robot.delay(1000);
+
             // 4. 输入手机号
-            robot.keyPress(KeyEvent.VK_1);
+            RobotCommon.phoneToAscii("18332120276", robot);
+            /*robot.keyPress(KeyEvent.VK_1);
             robot.keyRelease(KeyEvent.VK_1);
             robot.keyPress(KeyEvent.VK_8);
             robot.keyRelease(KeyEvent.VK_8);
@@ -350,7 +352,7 @@ public class RobotUtil {
             robot.keyPress(KeyEvent.VK_7);
             robot.keyRelease(KeyEvent.VK_7);
             robot.keyPress(KeyEvent.VK_6);
-            robot.keyRelease(KeyEvent.VK_6);
+            robot.keyRelease(KeyEvent.VK_6);*/
             robot.delay(1000);
 
             // 5. 移动到获取验证码点击位置
