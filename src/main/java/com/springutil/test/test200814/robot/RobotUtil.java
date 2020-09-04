@@ -17,7 +17,8 @@ public class RobotUtil {
     public static void main(String[] args) {
         // getFiveCircle();
         // writeCode();
-        ctrlV();
+        // ctrlV();
+        get4399Message();
     }
 
     /**
@@ -288,6 +289,82 @@ public class RobotUtil {
             // 回车
             robot.keyPress(KeyEvent.VK_ENTER);
             robot.keyRelease(KeyEvent.VK_ENTER);
+        }
+    }
+
+    /**
+     * 模拟4399获取发送验证码
+     */
+    static void get4399Message() {
+        try {
+            Robot robot = new Robot();
+            // 延迟5s
+            robot.delay(5000);
+            // 1. 移动到注册点击位置
+            for (int i = 0; i < 3; i++) {
+                robot.mouseMove(1270, 190);
+            }
+            robot.delay(1000);
+            // 点击
+            robot.mousePress(InputEvent.BUTTON1_MASK);
+            robot.mouseRelease(InputEvent.BUTTON1_MASK);
+            robot.delay(1000);
+
+            // 2. 移动到短信登录点击位置
+            for (int i = 0; i < 3; i++) {
+                robot.mouseMove(770, 340);
+            }
+            robot.delay(1000);
+            // 点击
+            robot.mousePress(InputEvent.BUTTON1_MASK);
+            robot.mouseRelease(InputEvent.BUTTON1_MASK);
+            robot.delay(1000);
+
+            // 3. 移动到手机号点击位置
+            for (int i = 0; i < 3; i++) {
+                robot.mouseMove(800, 540);
+            }
+            // 点击
+            robot.mousePress(InputEvent.BUTTON1_MASK);
+            robot.mouseRelease(InputEvent.BUTTON1_MASK);
+            robot.delay(1000);
+            // 4. 输入手机号
+            robot.keyPress(KeyEvent.VK_1);
+            robot.keyRelease(KeyEvent.VK_1);
+            robot.keyPress(KeyEvent.VK_8);
+            robot.keyRelease(KeyEvent.VK_8);
+            robot.keyPress(KeyEvent.VK_3);
+            robot.keyRelease(KeyEvent.VK_3);
+            robot.keyPress(KeyEvent.VK_3);
+            robot.keyRelease(KeyEvent.VK_3);
+            robot.keyPress(KeyEvent.VK_2);
+            robot.keyRelease(KeyEvent.VK_2);
+            robot.keyPress(KeyEvent.VK_1);
+            robot.keyRelease(KeyEvent.VK_1);
+            robot.keyPress(KeyEvent.VK_2);
+            robot.keyRelease(KeyEvent.VK_2);
+            robot.keyPress(KeyEvent.VK_0);
+            robot.keyRelease(KeyEvent.VK_0);
+            robot.keyPress(KeyEvent.VK_2);
+            robot.keyRelease(KeyEvent.VK_2);
+            robot.keyPress(KeyEvent.VK_7);
+            robot.keyRelease(KeyEvent.VK_7);
+            robot.keyPress(KeyEvent.VK_6);
+            robot.keyRelease(KeyEvent.VK_6);
+            robot.delay(1000);
+
+            // 5. 移动到获取验证码点击位置
+            for (int i = 0; i < 3; i++) {
+                robot.mouseMove(920, 610);
+            }
+            robot.delay(1000);
+            // 点击
+            robot.mousePress(InputEvent.BUTTON1_MASK);
+            robot.mouseRelease(InputEvent.BUTTON1_MASK);
+            robot.delay(1000);
+            System.out.println("OK");
+        } catch (AWTException e) {
+            e.printStackTrace();
         }
     }
 }
