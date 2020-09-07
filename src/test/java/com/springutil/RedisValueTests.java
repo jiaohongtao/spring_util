@@ -10,6 +10,9 @@ import org.springframework.data.redis.core.ValueOperations;
 import java.io.Serializable;
 
 /**
+ * Redis测试
+ * href: https://baijiahao.baidu.com/s?id=1653885983671118645&wfr=spider&for=pc
+ *
  * @author jiaohongtao
  * @version 1.0
  * @since 2020年09月07日

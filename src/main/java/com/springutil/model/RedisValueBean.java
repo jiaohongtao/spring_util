@@ -7,6 +7,8 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 /**
+ * Redis测试Bean
+ *
  * @author jiaohongtao
  * @version 1.0
  * @since 2020年09月07日
