@@ -8,4 +8,5 @@ package com.springutil.deleteFiles;
 public class newFile {
 
     String name;
+    String address;
 }
