@@ -11,5 +11,6 @@ public class DeleteTest {
         System.out.println("abcd");
         System.out.println("bbbb");
         System.out.println("AAA");
+        System.out.println("BBB");
     }
 }
